@@ -7,8 +7,8 @@ const team = [
         photo: `<img src="img/wayne-barnett-founder-ceo.jpg" alt="">`
     },
     {
-        name: 'Angela Caroll', 
-        role: 'Chief Editor',
+        name: `<p>Angela Caroll</p>`, 
+        role: `<p>Chief Editor</p>`,
         photo: `<img src="img/angela-caroll-chief-editor.jpg" alt="">`
     },
     {
@@ -36,5 +36,5 @@ const team = [
 console.log(team);
 
 for (let element of team) {     console.log(element);
-    eleList.innerHTML += (`<li class="member">${element.name}, ${element.role}, ${element.photo}</li>`);
+    eleList.innerHTML += (`<div class="member">${element.name}, ${element.role}, ${element.photo}</div>`);
 }
