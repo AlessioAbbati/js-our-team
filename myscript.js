@@ -1,3 +1,5 @@
+let eleList = document.querySelector(".grid");
+
 const team = [
     {
         name: 'Wayne Barnett',
@@ -30,3 +32,9 @@ const team = [
         photo: 'barbara-ramos-graphic-designer.jpg'
     }
 ];
+
+console.log(team);
+
+for (let element of team) {     console.log(element);
+    eleList.innerHTML += (`<li class="member">${element.name}, ${element.role}, ${element.photo}</li>`);
+}
