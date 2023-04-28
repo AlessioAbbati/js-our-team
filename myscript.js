@@ -7,8 +7,8 @@ const team = [
         photo: `<img src="img/wayne-barnett-founder-ceo.jpg" alt="">`
     },
     {
-        name: `<p>Angela Caroll</p>`, 
-        role: `<p>Chief Editor</p>`,
+        name: 'Angela Caroll', 
+        role: 'Chief Editor',
         photo: `<img src="img/angela-caroll-chief-editor.jpg" alt="">`
     },
     {
